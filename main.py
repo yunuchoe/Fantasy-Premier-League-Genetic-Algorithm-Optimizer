@@ -33,10 +33,11 @@ ELITSM = True # use elitism
 
 # algorthim source: https://www.datacamp.com/tutorial/genetic-algorithm-python
 
+# GOOGLE COLAB ONLY
 # download dataset. originally from:
 # https://github.com/vaastav/Fantasy-Premier-League/blob/master/data/2025-26/players_raw.csv#L6
-if not os.path.exists('players_raw.csv'):
-    !gdown "1_KsLNuVyEKQSE4aPGODLZF2KNh898aSq" -O players_raw.csv
+# if not os.path.exists('players_raw.csv'):
+#    !gdown "1_KsLNuVyEKQSE4aPGODLZF2KNh898aSq" -O players_raw.csv
 
 # relevant fields in file
 fields = [
